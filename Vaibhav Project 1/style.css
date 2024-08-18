@@ -1,0 +1,390 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.swiper-wrapper{
+    
+    
+}
+.swiper-slide img{
+   width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: left;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+a{
+    text-decoration: none;
+    color: #FF0000;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1150px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col2{
+    flex-basis: 50%;
+    min-width: 200px;
+}
+.col2 img{
+    max-width: 50%;
+    padding: 25px 0;
+}
+.col2-1{
+    flex-basis: 50%;
+    min-width: 200px;
+}
+.col2-1 img{
+    max-width: 100%;
+    padding: 25px 0;
+}
+.col2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.bgimg{
+    background-image: url("Image/bgimg.jpg");
+}
+.btn:hover{
+    background: #563435;
+}
+.header{
+    background: radial-gradient(#fff,#877474);
+
+}
+.header .row{
+    margin-top:1px ;
+}
+.categories{
+    margin: 70px 0;
+}
+.col3{
+    margin-bottom: 15px;
+}
+.col3 img{
+    width: 100%;
+}
+.swiper .swiper-button-prev , .swiper .swiper-button-next{
+    color: #FF4E01;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #FF4E01;
+}
+.small-cointainer{
+    width: 80%;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.small-cointainer1{
+    
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.col4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 20px;
+    margin-bottom: 50px;
+    transition: transform 0.8s;
+}
+.col4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #6600FF;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col4 p{
+    font-size: 19px;
+}
+.rating .fa{
+    color: #ff523b;
+}
+.col4:hover{
+    transform: translateY(-20px);
+}
+
+<!---------offer------------>
+
+.headco{
+    background: radial-gradient(#fff,#F5F5F5);
+}
+.offer{
+    background: radial-gradient(#fff,#877474);
+    margin-top: 100px;
+    padding: 50px 0;
+}
+small{
+    color: #555;
+}
+
+<!---------testimonial------------>
+
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 35px 25px;
+    box-shadow: 30px 30px 44px rgba(0, 0, 0, 0.1);
+    border: 0.5px solid #FD2724;
+}
+.testimonial .col3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    
+}
+.testimonial .col3:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+.col3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.testimonial .col3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+.a2b2{
+    width: 350px;
+    height: 200px;
+}
+.a3b3{
+    width: 350px;
+    height: 200px;   
+}
+.a4b4{
+    height: 200px;
+}
+<!----------------all_products------------>
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+
+<!------single_p_details-------->
+
+.one_product{
+    margin-top: 70px;
+}
+.one_product .col2 img{
+    padding: 0;
+}
+.one_product .col2{
+    padding: 20px ;
+    font-size: 14px;
+    font-weight: bold;
+}
+.one_product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.small_img_row{
+    display: flex;
+    justify-content: space-between;
+}
+.small_img_col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+/*-------------cart_item_details---------------*/
+.cart_page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart_info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total_price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total_price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 350px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+/*---------acc page-----------*/
+
+.account_page{
+    padding: 50px 0;
+    background: radial-gradient(#fff, #DAF7A6);
+}
+.form_cointainer{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.form_cointainer span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form_btn{
+    display: inline-block;
+}
+.form_cointainer form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 0.8s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+form .btn:focus{
+    outline: none;
+}
+
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+form a{
+    font-size: 12px;
+}
+.indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 0.8s;
+}
